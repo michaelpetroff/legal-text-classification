@@ -1,0 +1,12 @@
+{
+  "cuda": true,
+  "model_path": "out/legal_test",
+  "pred_x_path": "legal_dataset/test.txt.tok",
+  "pred_y_path": "legal_dataset/test.cat",
+  "minimum_purity": 0.05,
+  "top_k_in_logs": 100,
+  "sample_size": 2000,
+  "cluster": false,
+  "embedding_dim": 512,
+  "num_filters": 32
+}
